@@ -1,1 +1,1 @@
-# PeerTube theme Quickstart
+# PeerTube theme for NextGenPurpose
