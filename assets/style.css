@@ -1,0 +1,27 @@
+.avatar  {
+  border:5px solid red;
+}
+.avatar-34 {
+  border:2px solid red;
+}
+.initial.orange {
+    background-color:#222 !important;
+}
+body {
+  --mainColor: #3e3e3e;
+  --mainBackgroundColor: #f6f6f6;
+  --mainForegroundColor: rgba(5,5,5,0.878431);
+  --submenuColor: hsla(0, 0%, 100%, .15) hsla(0, 0%, 100%, .7) hsla(0, 0%, 100%, .7) hsla(0, 0%, 100%, .15);;
+  --submenuBackgroundColor: #eee;
+  --channelBackgroundColor: #eee;
+  --inputColor: #272727;
+  --inputPlaceholderColor: rgba(195,195,195,0.878431);
+  --menuAndHeaderBackgroundColor: #272727;
+  --menuForegroundColor: rgba(195,195,195,0.878431);
+  --menuBackgroundColor: #272727;
+  --whiteColor: #ffffff;
+  --mainHoverColor: #999999;
+  --mainNavColor: #ccc  !important;
+  --actionButtonColor: #ffffff;
+  --dangerBackgroundColor: #3e3e3e;
+}
