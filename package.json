@@ -9,7 +9,7 @@
     "peertube",
     "theme"
   ],
-  "homepage": "https://github.com/jtayler/peertube-plugin-nextgenpurpose",
+  "homepage": "https://www.npmjs.com/package/peertube-theme-nextgenpurpose",
   "author": "Chocobozzz",
   "bugs": "https://github.com/jtayler/peertube-plugin-nextgenpurpose/issues",
   "staticDirs": {
