@@ -9,9 +9,9 @@
     "peertube",
     "theme"
   ],
-  "homepage": "https://framagit.org/framasoft/peertube/peertube-theme-nextgenpurpose",
+  "homepage": "https://github.com/jtayler/peertube-plugin-nextgenpurpose",
   "author": "Chocobozzz",
-  "bugs": "https://framagit.org/framasoft/peertube/peertube-theme-nextgenpurpose/issues",
+  "bugs": "https://github.com/jtayler/peertube-plugin-nextgenpurpose/issues",
   "staticDirs": {
     "images": "public/images"
   },
@@ -21,7 +21,9 @@
   "clientScripts": [
     {
       "script": "client/common-client-plugin.js",
-      "scopes": [ "common" ]
+      "scopes": [
+        "common"
+      ]
     }
   ],
   "translations": {
