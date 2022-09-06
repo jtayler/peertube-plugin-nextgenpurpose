@@ -1,13 +1,37 @@
-.avatar  {
-  border:5px solid red;
+#custom-css .header .icon-logo {
+  background: url('../../static/images/nextgenlogo.png') no-repeat;
+  background-size: contain;
 }
-.avatar-34 {
-  border:2px solid red;
+.alert-info {
+  border-color:#A09588;
+  background-color:#EAE1CF;
+  color:#3e3e3e;
+  fill:#3e3e3e !important;
+}
+#custom-css .header {
+  height:14rem;
+  background-color: #283137;
+}
+.top-left-block, .header-right {
+  background-color: #5B6E7B;
+  margin-top:11rem;
+}
+#custom-css .sub-header-container {
+  margin-top:14rem;
+}
+.avatar  {
+  border:5px solid #A09588;
+}
+.avatar.channel, .avatar-32  {
+  border:0 solid #A09588;
+}
+#custom-css .avatar-34 {
+  border:2px solid #A09588;
 }
 .initial.orange {
-    background-color:#222 !important;
+    background-color:#283137 !important;
 }
-body {
+body#custom-css {
   --mainColor: #3e3e3e;
   --mainBackgroundColor: #f6f6f6;
   --mainForegroundColor: rgba(5,5,5,0.878431);
@@ -18,7 +42,7 @@ body {
   --inputPlaceholderColor: rgba(195,195,195,0.878431);
   --menuAndHeaderBackgroundColor: #272727;
   --menuForegroundColor: rgba(195,195,195,0.878431);
-  --menuBackgroundColor: #272727;
+  --menuBackgroundColor: #283137;
   --whiteColor: #ffffff;
   --mainHoverColor: #999999;
   --mainNavColor: #ccc  !important;
