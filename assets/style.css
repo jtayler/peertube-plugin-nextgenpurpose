@@ -1,11 +1,13 @@
-@font-face { font-family: roboto-regular; src: url('../EB_Garamond/EBGaramond-VariableFont_wght.ttf'); }
 
 #custom-css ._header ._icon-logo {
   background: url('../../static/images/nextgenlogo.png') no-repeat;
   background-size: contain;
 }
+
+
+@font-face { font-family: 'EB Garamond'; src: url('../EB_Garamond/EBGaramond-VariableFont_wght.ttf'); }
 #custom-css .body {
-  font-family: "roboto-regular";
+  font-family: "EB Garamond";
 }
 .mainmenu {
   float:left;
