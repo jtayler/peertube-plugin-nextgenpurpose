@@ -2,6 +2,19 @@
   background: url('../../static/images/nextgenlogo.png') no-repeat;
   background-size: contain;
 }
+.mainmenu {
+  float:left;
+  position:absolute;
+  bottom:-0.25rem;
+  left:23rem;
+}
+.mainmenu li {
+  display:inline;
+  padding-left:1.5rem;
+  padding-right:1.5rem;
+  font-size:1rem;
+  color:#A2ADB4;
+}
 .action-button-dislike {
   display: none !important;
 }
