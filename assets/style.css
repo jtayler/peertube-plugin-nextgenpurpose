@@ -1,6 +1,11 @@
+@font-face { font-family: roboto-regular; src: url('../EB_Garamond/EBGaramond-VariableFont_wght.ttf'); }
+
 #custom-css ._header ._icon-logo {
   background: url('../../static/images/nextgenlogo.png') no-repeat;
   background-size: contain;
+}
+#custom-css .body {
+  font-family: "roboto-regular";
 }
 .mainmenu {
   float:left;
