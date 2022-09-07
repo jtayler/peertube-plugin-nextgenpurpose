@@ -25,8 +25,6 @@ function register ({ registerHook, peertubeHelpers }) {
 
   header.insertBefore(div, null);
 
-  alert("done");
-
 }
 
 function createMenu() {
