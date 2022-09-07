@@ -1,6 +1,5 @@
 function register ({ registerHook, peertubeHelpers }) {
-  alert("registerd new file!");
-
+  alert("registerd old file!");
 }
 
 export {
