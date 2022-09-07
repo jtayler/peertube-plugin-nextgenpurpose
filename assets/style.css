@@ -1,6 +1,9 @@
-#custom-css .header .icon-logo {
+#custom-css ._header ._icon-logo {
   background: url('../../static/images/nextgenlogo.png') no-repeat;
   background-size: contain;
+}
+.action-button-dislike {
+  display: none !important;
 }
 .alert-info {
   border-color:#A09588;
@@ -11,6 +14,10 @@
 #custom-css .header {
   height:14rem;
   background-color: #283137;
+}
+#custom-css .ng-star-inserted .header {
+  height:2rem;
+  background-color: #f6f6f6 !important;
 }
 .top-left-block, .header-right {
   background-color: #5B6E7B;
