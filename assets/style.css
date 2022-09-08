@@ -1,19 +1,46 @@
 
-#custom-css ._header ._icon-logo {
-  background: url('../../static/images/nextgenlogo.png') no-repeat;
-  background-size: contain;
-}
-
-
-@font-face { font-family: 'EB Garamond'; src: url('../EB_Garamond/EBGaramond-VariableFont_wght.ttf'); }
-#custom-css .body {
+@font-face { font-family: 'EB Garamond'; src: url('../../EB_Garamond/EBGaramond-VariableFont_wght.ttf'); }
+body {
   font-family: "EB Garamond";
 }
-.mainmenu {
-  float:left;
+#custom-css .sub-header-container {
+  margin-top: 11rem;
+}
+.nextgenlogo {
+  background: url('../../static/images/nextgenlogomm.png') no-repeat;
+  background-size: contain;
+  height: 100%;
+}
+.textdiv {
   position:absolute;
-  bottom:-0.25rem;
-  left:23rem;
+  right:2rem;
+  top:44%;
+  color:#5B6E7B;
+  font-size:1.1rem;
+}
+.mainmenu {
+  background-color: #5B6E7B;
+  top: 0;
+  margin:0;
+  position: fixed;
+  z-index: 17501;
+  height: 8rem;
+  width: 100%;
+}
+.mainbanner {
+  background-color: #283137;
+  top: 0;
+  margin:0;
+  position: fixed;
+  z-index: 17501;
+  height: 8rem;
+  width: 100%;
+}
+.mainmenu ol {
+  padding-top: 2rem;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
 }
 .mainmenu li {
   display:inline;
@@ -32,19 +59,16 @@
   fill:#3e3e3e !important;
 }
 #custom-css .header {
-  height:14rem;
-  background-color: #283137;
+  top: 8rem;
+  background-color: #C2BD76;
 }
 #custom-css .ng-star-inserted .header {
-  height:2rem;
   background-color: #f6f6f6 !important;
 }
 .top-left-block, .header-right {
   background-color: #5B6E7B;
-  margin-top:11rem;
 }
 #custom-css .sub-header-container {
-  margin-top:14rem;
 }
 .avatar  {
   border:5px solid #A09588;

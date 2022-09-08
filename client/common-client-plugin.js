@@ -4,6 +4,19 @@ function register ({ registerHook, peertubeHelpers }) {
 
   var menu = createMenu();
   let div = document.createElement('div');
+  let logodiv = document.createElement('div');
+  let mainbanner = document.createElement('div');
+  let textdiv = document.createElement('div');
+
+  textdiv.classList.add("textdiv");
+  textdiv.textContent = "Business nutrients";
+
+  mainbanner.classList.add("mainbanner");
+  logodiv.classList.add("nextgenlogo");
+  mainbanner.appendChild(logodiv);
+  mainbanner.appendChild(textdiv);
+  div.appendChild(mainbanner);
+
   div.classList.add("mainmenu");
 
   div.appendChild(menu);
@@ -23,12 +36,12 @@ function register ({ registerHook, peertubeHelpers }) {
   contact.setAttribute("href","https://www.nextgenpurpose.com/contact-us");
   menu.appendChild(contact);
 
-  header.insertBefore(div, null);
+  header.parentNode.insertBefore(div, header);
 
 }
 
 function createMenu() {
-    let ul = document.createElement('ul');
+    let ul = document.createElement('ol');
     return ul;
 }
 
