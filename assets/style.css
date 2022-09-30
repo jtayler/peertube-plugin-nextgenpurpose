@@ -6,6 +6,19 @@ body {
 #custom-css .sub-header-container {
   margin-top: 11rem;
 }
+#custom-css .video-actions .action-button {
+  color: #585858 !important;
+}
+#custom-css textarea, #custom-css input {
+  -webkit-box-shadow: none;
+  box-shadow: none;  
+}
+#custom-css .orange-button:active {
+  transition:none !important;
+  box-shadow:none  !important;
+  -webkit-box-shadow: none;
+}
+
 .nextgenlogo {
   background: url('../../static/images/nextgenlogomm.png') no-repeat;
   background-size: contain;
@@ -97,6 +110,7 @@ body#custom-css {
   --whiteColor: #ffffff;
   --mainHoverColor: #999999;
   --mainNavColor: #ccc  !important;
-  --actionButtonColor: #ffffff;
-  --dangerBackgroundColor: #3e3e3e;
+  --actionButtonColor: #3e3e3e;
+  --activatedActionButtonColor:#000;
+--dangerBackgroundColor: #3e3e3e;
 }

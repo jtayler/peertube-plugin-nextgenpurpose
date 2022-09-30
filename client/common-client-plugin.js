@@ -1,5 +1,5 @@
 function register ({ registerHook, peertubeHelpers }) {
-  var headers = document.getElementsByClassName('header');
+  var headers = document.getElementsByClassName('root-header');
   var header = headers[0];
 
   var menu = createMenu();
