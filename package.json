@@ -1,6 +1,6 @@
 {
   "name": "peertube-theme-nextgenpurpose",
-  "version": "0.0.66",
+  "version": "0.1.0",
   "description": "PeerTube theme nextgenpurpose",
   "engine": {
     "peertube": ">=1.3.0"

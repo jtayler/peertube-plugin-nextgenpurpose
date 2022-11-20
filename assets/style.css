@@ -19,6 +19,53 @@ body {
   -webkit-box-shadow: none;
 }
 
+.step-content-title .root {
+    display:none;
+}
+.video-miniature .video-thumbnail,.miniature-thumbnail {
+    border-radius:1rem !important;
+    border:0.25rem white solid;
+}
+.why {
+    display:none;
+}
+.margin-content .callout {
+    display:none;
+}
+.step-content-title .root {
+    width:0;
+}
+.why {
+    display:none;
+}
+.video-miniature-created-at-views {
+    color: #A3ADB4;
+}
+.-account-info {
+  background-color:#5E6D79 !important;
+}
+.channels, .channel {
+  border-radius:2rem;
+}
+.channels, .channel,.channels .description-html {
+  -background-color:#5E6D79 !important;
+}
+.description-html::after,.miniature-show-channel {
+  background:none !important;
+}
+.avatar  {
+  border:4px solid white;
+}
+.avatar.channel, .avatar-32  {
+  border:0 solid white;
+}
+#custom-css .avatar-34 {
+  border:2px solid white;
+}
+my-video-comments , my-video-attributes {
+display:none !important;
+}
+
 .nextgenlogo {
   background: url('../../static/images/nextgenlogomm.png') no-repeat;
   background-size: contain;
@@ -71,11 +118,11 @@ body {
   color:#3e3e3e;
   fill:#3e3e3e !important;
 }
-#custom-css .header {
+#custom-css .root-header {
   top: 8rem;
-  background-color: #C2BD76;
+  background-color: #5F6E7A;
 }
-#custom-css .ng-star-inserted .header {
+#custom-css .ng-star-inserted .root-header {
   background-color: #f6f6f6 !important;
 }
 .top-left-block, .header-right {
@@ -83,20 +130,58 @@ body {
 }
 #custom-css .sub-header-container {
 }
+.step-content-title .root {
+    display:none;
+}
+.video-miniature .video-thumbnail,.miniature-thumbnail {
+    border-radius:1rem !important;
+    border:0.25rem white solid;
+}
+.why {
+    display:none;
+}
+.margin-content .callout {
+    display:none;
+}
+.step-content-title .root {
+    width:0;
+}
+.why {
+    display:none;
+}
+.video-miniature-created-at-views {
+    color: #A3ADB4;
+}
+.-account-info {
+  background-color:#5E6D79 !important;
+}
+.channels, .channel {
+  border-radius:2rem;
+}
+.channels, .channel,.channels .description-html {
+  -background-color:#5E6D79 !important;
+}
+.description-html::after,.miniature-show-channel {
+  background:none !important;
+}
 .avatar  {
-  border:5px solid #A09588;
+  border:4px solid white;
 }
 .avatar.channel, .avatar-32  {
-  border:0 solid #A09588;
+  border:0 solid white;
 }
 #custom-css .avatar-34 {
-  border:2px solid #A09588;
+  border:2px solid white;
+}
+my-video-comments , my-video-attributes {
+display:none !important;
 }
 .initial.orange {
     background-color:#283137 !important;
 }
 body#custom-css {
   --mainColor: #3e3e3e;
+  --mainColorLightest: #C4C4C4;
   --mainBackgroundColor: #f6f6f6;
   --mainForegroundColor: rgba(5,5,5,0.878431);
   --submenuColor: hsla(0, 0%, 100%, .15) hsla(0, 0%, 100%, .7) hsla(0, 0%, 100%, .7) hsla(0, 0%, 100%, .15);;

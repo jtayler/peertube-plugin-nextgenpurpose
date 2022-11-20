@@ -29,7 +29,7 @@ function register ({ registerHook, peertubeHelpers }) {
   menu.appendChild(podcast);
 
   let community = createMenuItem('Community');
-  community.setAttribute("href","http://oeinc.com:3001/");
+  community.setAttribute("href","http://community.oeinc.com/");
   menu.appendChild(community);
 
   var contact = createMenuItem('Contact');
@@ -42,6 +42,7 @@ function register ({ registerHook, peertubeHelpers }) {
 
 function createMenu() {
     let ul = document.createElement('ol');
+    ul.classList.add("nextgenmenu");
     return ul;
 }
 
